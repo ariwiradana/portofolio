@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Portfolio | Ari Wiradana</title>
+
+      <!-- CSS -->
+      <link
+         rel="stylesheet"
+         href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+
+      <!-- USER CSS -->
+      <link rel="stylesheet" href="assets/css/main.css" />
+   </head>
+
+   <body class="light-mode" id="top">
+      <!-- ALERT -->
+      <div class="alert-container">
+         <div class="alert">
+            <div class="alert-content alert-light">
+               <div class="d-flex align-items-center justify-content-between">
+                  <div class="alert-subtitle"></div>
+               </div>
+               <div
+                  class="
+                     d-flex
+                     justify-content-between
+                     align-items-center
+                     w-100
+                  "
+               >
+                  <div class="d-flex align-items-center">
+                     <div class="alert-title"></div>
+                     <a class="alert-link" href="" target="_blank">
+                        <button
+                           class="
+                              ml-1
+                              btn
+                              btn-sm
+                              btn-primary
+                              btn-icon-right-sm
+                              btn-alert-visit
+                           "
+                        >
+                           Demo
+                        </button>
+                     </a>
+                  </div>
+                  <i class="ml-1 uil uil-times alert-close-icon"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- LEFT NAVGATION WEB -->
+      <div class="left-nav-container">
+         <div
+            class="left-nav-content"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+         >
+            <div class="left-nav-item left-nav-light">
+               <a href="#home" id="left-home">
+                  <i class="left-nav-icon uil uil-estate"></i>
+                  <span class="tooltip tooltip-primary"></span>
+               </a>
+               <a href="#about" id="left-about">
+                  <i class="left-nav-icon uil uil-user"></i>
+                  <span class="tooltip tooltip-primary"></span>
+               </a>
+               <a href="#projects" id="left-projects">
+                  <i class="left-nav-icon uil uil-web-grid"></i>
+                  <span class="tooltip tooltip-primary"></span>
+               </a>
+               <a href="#skills" id="left-skills">
+                  <i class="left-nav-icon uil uil-cog"></i>
+                  <span class="tooltip tooltip-primary"></span>
+               </a>
+               <a href="#contact" id="left-contact">
+                  <i class="left-nav-icon uil uil-mobile-android"></i>
+                  <span class="tooltip tooltip-primary"></span>
+               </a>
+               <i
+                  class="
+                     dark-mode-toggle
+                     left-nav-icon
+                     uil uil-moon
+                     left-darkmode-icon
+                  "
+               ></i>
+            </div>
+         </div>
+      </div>
+
+      <!-- BOTTOM NAV -->
+      <div class="bottom-nav-container">
+         <div class="bottom-nav-content bottom-nav-light">
+            <a href="#home" id="bottom-nav-link">
+               <div class="bottom-nav-title">Home</div>
+            </a>
+            <div class="bottom-nav-item">
+               <i
+                  class="
+                     dark-mode-toggle
+                     uil uil-moon
+                     bottom-nav-icon
+                     botttom-nav-darkmode-icon
+                  "
+               ></i>
+               <i class="uil uil-apps bottom-nav-icon btn-bars"></i>
+            </div>
+         </div>
+      </div>
+
+      <!-- BOTTOM MENU -->
+      <div class="bottom-menu-container">
+         <div class="bottom-menu-content bottom-menu-light">
+            <div class="bottom-menu-body">
+               <a class="bottom-menu-icon" href="#about">
+                  <i class="uil uil-user"></i>
+                  <div class="bottom-menu-title">About</div>
+               </a>
+               <a class="bottom-menu-icon" href="#projects">
+                  <i class="uil uil-web-grid"></i>
+                  <div class="bottom-menu-title">Projects</div>
+               </a>
+               <a class="bottom-menu-icon" href="#skills">
+                  <i class="uil uil-cog"></i>
+                  <div class="bottom-menu-title">Skills</div>
+               </a>
+               <a class="bottom-menu-icon" href="#contact">
+                  <i class="uil uil-mobile-android"></i>
+                  <div class="bottom-menu-title">Contact</div>
+               </a>
+            </div>
+            <div class="bottom-menu-footer">
+               <i class="uil uil-times bottom-menu-close"></i>
+            </div>
+         </div>
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="nav-container">
+         <div class="nav-content nav-light">
+            <div class="nav-item">
+               <a href="">
+                  <div class="nav-logo heading-3">Portfolio</div>
+               </a>
+            </div>
+            <div class="nav-item">
+               <a href="#top" class="nav-link nav-active">
+                  <div class="heading-5 nav-link-light">Home</div>
+               </a>
+               <a href="#about" class="nav-link">
+                  <div class="heading-5 nav-link-light">About</div>
+               </a>
+               <a href="#projects" class="nav-link">
+                  <div class="heading-5 nav-link-light">Projects</div>
+               </a>
+               <a href="#skills" class="nav-link">
+                  <div class="heading-5 nav-link-light">Skills</div>
+               </a>
+               <a href="#contact" class="nav-link">
+                  <div class="heading-5 nav-link-light">Contact</div>
+               </a>
+               <div class="nav-link">
+                  <i
+                     class="
+                        uil uil-moon
+                        text-primary
+                        nav-icon
+                        dark-mode-toggle
+                        nav-toggle-dark-mode-icon
+                     "
+                  ></i>
+               </div>
+            </div>
+            <div class="nav-item">
+               <div class="nav-link">
+                  <i
+                     class="
+                        uil uil-moon
+                        dark-mode-toggle
+                        nav-toggle-dark-mode-icon
+                     "
+                  ></i>
+               </div>
+               <div class="nav-link btn-bars">
+                  <i class="uil uil-apps nav-bars-icon"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- HERO -->
+      <div id="home"></div>
+      <div class="hero-container">
+         <div class="hero-item">
+            <div class="hero-text-container">
+               <div
+                  class="hero-text-item"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+               >
+                  <a
+                     href="https://api.whatsapp.com/send?phone=+6281246768627"
+                     target="_blank"
+                  >
+                     <i class="uil uil-whatsapp hero-social-icon"></i>
+                  </a>
+                  <a
+                     href="https://www.instagram.com/ariwiradana/"
+                     target="_blank"
+                  >
+                     <i class="uil uil-instagram hero-social-icon"></i>
+                  </a>
+                  <a href="https://github.com/ariwiradana" target="_blank">
+                     <i class="uil uil-github-alt hero-social-icon"></i>
+                  </a>
+               </div>
+               <div class="hero-text-item">
+                  <div
+                     class="heading-4 mb-1"
+                     data-aos="fade-right"
+                     data-aos-duration="1000"
+                  >
+                     Hi, i'm Ari Wiradana
+                  </div>
+                  <div
+                     class="heading-1 mb-1"
+                     data-aos="fade-right"
+                     data-aos-duration="1000"
+                     data-aos-delay="200"
+                  >
+                     <strong>UI/UX Designer</strong> & <br /><strong
+                        >Web Front End Dev</strong
+                     >
+                  </div>
+                  <div
+                     class="d-flex mt-1 align-items-center"
+                     data-aos="fade-right"
+                     data-aos-duration="1000"
+                     data-aos-delay="600"
+                  >
+                     <a href="#contact">
+                        <button
+                           class="btn btn-primary btn-icon-left btn-web-hero"
+                        >
+                           <i class="uil uil-envelope-edit"></i>Send Email
+                        </button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div
+               class="hero-btn-container"
+               data-aos="fade-right"
+               data-aos-duration="1000"
+               data-aos-delay="600"
+            >
+               <a href="#contact" class="w-100">
+                  <button class="btn btn-primary btn-icon-left">
+                     <i class="uil uil-envelope-edit"></i> Send Email
+                  </button>
+               </a>
+            </div>
+         </div>
+         <div class="hero-item">
+            <img
+               src="assets/img/undraw_Design_notes_re_eklr.svg"
+               alt=""
+               class="hero-img"
+               data-aos="fade-left"
+               data-aos-duration="1000"
+               data-aos-delay="300"
+            />
+         </div>
+      </div>
+
+      <!-- ABOUT -->
+      <div id="about"></div>
+      <div
+         class="container about-container"
+         data-aos="fade-up"
+         data-aos-duration="1000"
+      >
+         <div class="heading-3 mb-2">About</div>
+         <div class="about-content">
+            <div
+               class="about-item"
+               data-aos="fade-right"
+               data-aos-duration="1000"
+            >
+               <div class="about-img-container">
+                  <img src="assets/img/ariw.JPG" alt="" class="about-img" />
+               </div>
+            </div>
+            <div class="about-item">
+               <div class="heading-5 mb-1 about-subtitle">Who am i?</div>
+               <p
+                  class="body-text text-justify"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+               >
+                  Hi, I am Ari Wiradana you can call me Ari. I am from Indonesia based from Bali and i have an enthusiasm
+                  for design and I also have design experience both graphic
+                  design and web front end development for last 2 years. Now i
+                  am looking forward to working with you!
+               </p>
+               <div
+                  class="about-btn-container mt-2"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="600"
+               >
+                  <a
+                     href="assets/cv/Curriculum Vitae - I Made Ari Wiradana.pdf"
+                     target="_blank"
+                     download
+                  >
+                     <button class="btn btn-primary btn-icon-left">
+                        <i class="uil uil-download-alt"></i>Download CV
+                     </button>
+                  </a>
+                  <div class="about-social">
+                     <a
+                        href="https://api.whatsapp.com/send?phone=+6281246768627"
+                        target="_blank"
+                     >
+                        <i class="uil uil-whatsapp btn-about-social"></i>
+                     </a>
+                     <a
+                        href="https://www.instagram.com/ariwiradana/"
+                        target="_blank"
+                     >
+                        <i class="uil uil-instagram btn-about-social"></i>
+                     </a>
+                     <a href="https://github.com/ariwiradana" target="_blank">
+                        <i class="uil uil-github-alt btn-about-social"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div id="projects"></div>
+      <div
+         class="container project-container"
+         data-aos="fade-up"
+         data-aos-duration="1000"
+      >
+         <div class="heading-3 mb-2">Projects</div>
+         <div class="project-content"></div>
+      </div>
+
+      <!-- SKILLS -->
+      <div id="skills"></div>
+      <div
+         class="container skills-container"
+         data-aos="fade-up"
+         data-aos-duration="1000"
+      >
+         <div class="heading-3 mb-2">Skills</div>
+         <div class="skills-content"></div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact"></div>
+      <div
+         class="container contact-container"
+         data-aos="fade-up"
+         data-aos-duration="1000"
+      >
+         <div class="heading-3 mb-2">Contact</div>
+         <div class="contact-content">
+            <div
+               class="contact-item"
+               data-aos="fade-left"
+               data-aos-duration="1000"
+            >
+               <div class="contact-data">
+                  <i class="uil uil-mobile-android contact-icon"></i>
+                  <a
+                     href="https://api.whatsapp.com/send?phone=+6281246768627"
+                     target="_blank"
+                     class="ml-1"
+                  >
+                     <div class="contact-title">Phone</div>
+                     <div class="subtitle-text">+6281 246 768 627</div>
+                  </a>
+               </div>
+               <div class="contact-data">
+                  <i class="uil uil-envelope contact-icon"></i>
+                  <a
+                     href="mailto:ariwiradana5@gmail.com"
+                     target="_blank"
+                     class="ml-1"
+                  >
+                     <div class="contact-title">Email</div>
+                     <div class="subtitle-text">ariwiradana5@gmail.com</div>
+                  </a>
+               </div>
+               <div class="contact-data">
+                  <i class="uil uil-map-pin contact-icon"></i>
+                  <a href="#" class="ml-1">
+                     <div class="contact-title">Address</div>
+                     <div class="subtitle-text">
+                        Jl. Intan Permai, Kerobokan Kelod, Bali
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div
+               class="contact-item"
+               data-aos="fade-right"
+               data-aos-duration="1000"
+               data-aos-delay="200"
+            >
+               <form action="" id="form-contact">
+                  <input
+                     type="text"
+                     id="contact-subject"
+                     class="form-input form-fill mb-1"
+                     placeholder="Subject"
+                     autocomplete="off"
+                     required
+                  />
+                  <textarea
+                     id="contact-body"
+                     class="form-input form-fill mb-1"
+                     placeholder="Message"
+                     autocomplete="off"
+                     rows="7"
+                     required
+                  ></textarea>
+                  <div class="d-flex justify-content-end">
+                     <button
+                        class="btn btn-primary btn-icon-right submit-contact"
+                        disabled
+                     >
+                        Send Email<i class="uil uil-angle-right-b"></i>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container footer-container">
+         <div class="footer-content-web">
+            <div class="footer-link">© 2021 Ari Wiradana</div>
+            <a href="#top">
+               <div class="footer-link">Home</div>
+            </a>
+            <a href="#about">
+               <div class="footer-link">About</div>
+            </a>
+            <a href="#projects">
+               <div class="footer-link">Projects</div>
+            </a>
+            <a href="#contact">
+               <div class="footer-link">Contact</div>
+            </a>
+            <a
+               href="https://api.whatsapp.com/send?phone=+6281246768627"
+               target="_blank"
+            >
+               <i class="uil uil-whatsapp footer-social-icon"></i>
+            </a>
+            <a href="https://www.instagram.com/ariwiradana/" target="_blank">
+               <i class="uil uil-instagram footer-social-icon"></i>
+            </a>
+            <a href="https://github.com/ariwiradana" target="_blank">
+               <i class="uil uil-github-alt footer-social-icon"></i>
+            </a>
+         </div>
+         <div class="footer-content-mobile">
+            <a href="#top">
+               <div class="footer-link">Home</div>
+            </a>
+            <a href="#about">
+               <div class="footer-link">About</div>
+            </a>
+            <a href="#projects">
+               <div class="footer-link">Projects</div>
+            </a>
+            <a href="#contact">
+               <div class="footer-link">Contact</div>
+            </a>
+            <a
+               href="https://api.whatsapp.com/send?phone=+6281246768627"
+               target="_blank"
+            >
+               <i class="uil uil-whatsapp footer-social-icon"></i>
+            </a>
+            <a href="https://www.instagram.com/ariwiradana/" target="_blank">
+               <i class="uil uil-instagram footer-social-icon"></i>
+            </a>
+            <a href="https://github.com/ariwiradana" target="_blank">
+               <i class="uil uil-github-alt footer-social-icon"></i>
+            </a>
+
+            <div class="copyright-text">© 2021 Ari Wiradana</div>
+         </div>
+      </footer>
+
+      <!-- SCRIPTS -->
+      <script src="assets/js/jquery/jquery-3.6.0.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+
+      <!-- USER JS -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
